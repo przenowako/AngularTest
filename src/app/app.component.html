@@ -1,4 +1,9 @@
 <h1>{{title}}</h1>
-<app-heroes></app-heroes>
-<app-messages></app-messages>
-<!--<app-todo></app-todo>-->
+<nav class="mainNav">
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+  <a routerLink="/todo">Todo</a>
+  <a routerLink="/logs">Logs</a>
+  <a routerLink="/">Empty</a>
+</nav>
+<router-outlet></router-outlet>
