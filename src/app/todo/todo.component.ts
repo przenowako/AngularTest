@@ -22,6 +22,8 @@ import { trigger,animate,style,transition,keyframes } from '@angular/animations'
 })
 export class TodoComponent implements OnInit {
   todoArray: any[] = [];
+  value: number = 0;
+  precision: number = 0;
     todo: any;
     //todoForm: new FormGroup()
 

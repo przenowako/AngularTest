@@ -14,7 +14,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
-
+import { ComarchComponent } from './comarch/comarch.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +25,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HeroDetailComponent,
     DashboardComponent,
     HeroSearchComponent,
+    ComarchComponent,
   ],
   imports: [
     BrowserModule,
